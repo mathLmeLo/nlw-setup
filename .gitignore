@@ -1,0 +1,10 @@
+# Server
+server/node_modules
+server/.env
+server/yarn.lock
+server/yarn-error.log
+# Front
+front/node_modules
+front/.env
+front/yarn.lock
+front/yarn-error.log
