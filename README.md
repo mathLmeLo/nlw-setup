@@ -11,7 +11,7 @@
   - Converte codigo js para sql
 - ORM como o Prisma https://www.prisma.io/ 
 
-# Dependências e configurações
+# BACKEND Dependências e configurações
 
 ## Iniciar projeto
 `yarn init -y`
@@ -35,4 +35,16 @@
 ### Para vizualizar o DB no navegador
 `yarn prisma studio`
 ### Instalar o CORS para o Fastify
-`yarn @fastify/cors`
+`yarn add @fastify/cors`
+
+# FRONTEND Dependências e configurações
+
+## Iniciar projeto
+`npm create vite@latest`
+
+## Lib de css
+`yarn add -D tailwindcss postcss autoprefixer`
+
+## Inicializar tailwind 
+`yarn tailwindcss init -p`
+

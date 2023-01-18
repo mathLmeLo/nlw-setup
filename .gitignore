@@ -4,7 +4,7 @@ server/.env
 server/yarn.lock
 server/yarn-error.log
 # Front
-front/node_modules
-front/.env
-front/yarn.lock
-front/yarn-error.log
+web/node_modules
+web/.env
+web/yarn.lock
+web/yarn-error.log
