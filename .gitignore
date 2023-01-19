@@ -8,3 +8,8 @@ web/node_modules
 web/.env
 web/yarn.lock
 web/yarn-error.log
+# Mobile
+mobile/node_modules
+mobile/.env
+mobile/yarn.lock
+mobile/yarn-error.log

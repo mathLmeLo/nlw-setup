@@ -11,6 +11,9 @@
   - Converte codigo js para sql
 - ORM como o Prisma https://www.prisma.io/ 
 
+- React native utiliza uam ferramenta propria de estilização, o StyleSheet, que utiliza o css para estilizar os componentes. Nela o flexbox é o padrão, n é necessário colocar o "display: flex".
+- Além disso, as propriedades do css do StyleSheet do react native utilizam camel-case, diferentemente da web, e assim, propriedades como "backgorund-color"  ficam como "backgroundColor"
+
 # BACKEND Dependências e configurações
 
 ## Iniciar projeto
@@ -48,3 +51,11 @@
 ## Inicializar tailwind 
 `yarn tailwindcss init -p`
 
+# Mobile Dependências e configurações
+
+## Iniciar projeto
+`npx create-expo-app mobile --template`, selecionar Blank Typescript
+`npx expo start`
+
+# Instalar fonte Inter do Google Fonts
+`npx expo install expo-font @expo-google-fonts/inter`
