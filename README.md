@@ -39,6 +39,17 @@
 `yarn prisma studio`
 ### Instalar o CORS para o Fastify
 `yarn add @fastify/cors`
+### Instalar gerador de diagramas para vizualização do DB
+`yarn add -D prisma-erd-generator @mermaid-js/mermaid-cli`
+### Gerar diagrama do DB
+`yarn prisma generate`
+### Rodar seeds
+`yarn prisma db seed`
+### Instalar o ZOD para validação
+`yarn add zod`
+
+### Instalar biblioteca dayjs para trabalhar com datas
+`yarn add dayjs`
 
 # FRONTEND Dependências e configurações
 
